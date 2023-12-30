@@ -1,0 +1,38 @@
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.containerP {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.photo{
+    margin-left: 8%;
+}
+
+.photo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.photo a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    padding: 2% 2%;
+}
+
+.details {
+    width: 55%;
+}
+
+.details h2 {
+    color: #668cff;
+}

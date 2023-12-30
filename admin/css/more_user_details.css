@@ -1,0 +1,39 @@
+.container {
+    margin: 10% auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    border: solid #668cff 5px;
+}
+
+body {
+    background-color: white;
+    color: #668cff;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+form {
+    margin: 0 auto;  
+}
+
+button {
+    margin: 0 auto;
+    background-color: #668cff;
+}
+#submit {
+    margin: 2% auto; 
+    background-color: #668cff;
+    color: white;
+}
+.error{
+    color: #F08080;
+  }
+  
